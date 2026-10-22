@@ -15,7 +15,7 @@ st.markdown("""
 }
 
 [class*="st-key-tarjeta_"] {
-    border: 2px solid #2d6a6a;
+    border: 1px solid #2d6a6a;
     border-radius: 0.75rem;
     padding: 1rem;
 }

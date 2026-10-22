@@ -6,6 +6,7 @@ backgroundColor = "#f0f3ea"
 secondaryBackgroundColor = "#dfe6d3"
 textColor = "#1d2733"
 font = "sans serif"
+borderColor = "#2d6a6a"
 
 [client]
 toolbarMode = "minimal"

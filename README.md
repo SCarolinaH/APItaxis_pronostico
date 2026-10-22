@@ -12,8 +12,8 @@ Proyecto de AIMLF1 · Módulo 2 (actividad en parejas).
 ## Integrantes
 
 - _Diego Antonio Miranda Deleon_
-- _Silvia Carolina Rivera Herrera_
 - _Kevin Roberto Navas Guzmán_
+- _Silvia Carolina Rivera Herrera_
 
 ## Cómo está organizado
 

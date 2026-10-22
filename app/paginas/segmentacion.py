@@ -30,6 +30,7 @@ n = 0
 for i in range(0, len(elegidos), 4):
     cols = st.columns(4)
     for col, g in zip(cols, elegidos[i:i + 4]):
+        n += 1
         sub = seg[seg["nombre_grupo"] == g]
         with col.container(border=True, key=f"tarjeta_{n}"):
             st.badge(g, color=badge[g])

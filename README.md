@@ -12,7 +12,7 @@ Proyecto de AIMLF1 · Módulo 2 (actividad en parejas).
 ## Integrantes
 
 - _Nombre 1_
-- _Nombre 2_
+- _Silvia Carolina Rivera Herrera_
 - _Nombre 2_
 
 ## Cómo está organizado

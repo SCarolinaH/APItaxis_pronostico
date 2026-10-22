@@ -44,7 +44,7 @@ m2.metric("Hora pico", f"{int(df.loc[pico, 'hora'])}:00", delta=f"{df.loc[pico, 
 m3.metric("Rango del día (80%)", f"{df['p10'].sum():,.0f} – {df['p90'].sum():,.0f}",  border=True,
           help="Suma de los cuantiles 10% y 90% hora por hora. Es una aproximación del rango del día.")
 if futuro:
-    m4.metric("Viajes reales", "Pendiente", delta="pronóstico a futuro", delta_color="off",
+    m4.metric("Viajes reales", "Pendiente", delta="pronóstico a futuro", delta_color="violet",
               delta_arrow="off", border=True)
 else:
     mae = (df["real"] - df["p50"]).abs().mean()

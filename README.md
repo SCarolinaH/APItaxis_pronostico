@@ -13,7 +13,7 @@ Proyecto de AIMLF1 · Módulo 2 (actividad en parejas).
 
 - _Nombre 1_
 - _Nombre 2_
-- - _Nombre 2_
+- _Nombre 2_
 
 ## Cómo está organizado
 

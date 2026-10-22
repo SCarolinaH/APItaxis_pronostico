@@ -5,6 +5,14 @@ from comun import api_en_linea, api_url
 
 st.set_page_config(page_title="Taxis NYC", page_icon=":material/local_taxi:", layout="wide")
 
+st.markdown("""
+<style>
+.stApp { background-color: #f0f3ea; }
+[data-testid="stSidebar"] { background-color: #dfe6d3; }
+[data-testid="stHeader"] { background: transparent; }
+</style>
+""", unsafe_allow_html=True)
+
 paginas = {
     "Planificar": [
         st.Page("paginas/pronostico.py", title="Pronóstico", icon=":material/insights:", default=True),

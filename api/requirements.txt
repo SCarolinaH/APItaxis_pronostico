@@ -1,0 +1,12 @@
+
+pandas
+numpy
+matplotlib
+scikit-learn
+xgboost==3.4.1
+plotly
+pyarrow
+fastapi
+uvicorn
+requests
+streamlit

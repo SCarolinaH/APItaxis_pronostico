@@ -7,21 +7,23 @@ st.set_page_config(page_title="Taxis NYC", page_icon=":material/local_taxi:", la
 
 st.markdown("""
 <style>
-.stApp { background-color: #eef3f8; }
+.stApp {
+    background-image: linear-gradient(rgba(45, 106, 106, 0.10), rgba(45, 106, 106, 0.10));
+}
+[data-testid="stSidebar"] {
+    background-image: linear-gradient(rgba(45, 106, 106, 0.18), rgba(45, 106, 106, 0.18));
+}
+[data-testid="stHeader"] { background: transparent; }
 
 [data-testid="stMetric"],
 [data-testid="stMetricContainer"] {
     border-color: #2d6a6a !important;
 }
-
 [class*="st-key-tarjeta_"] {
     border: 1px solid #2d6a6a;
-    border-radius: 0.75rem;
+    border-radius: 0.5rem;
     padding: 1rem;
 }
-
-[data-testid="stSidebar"] { background-color: #dde8f1; }
-[data-testid="stHeader"] { background: transparent; }
 </style>
 """, unsafe_allow_html=True)
 

@@ -8,6 +8,14 @@ st.set_page_config(page_title="Taxis NYC", page_icon=":material/local_taxi:", la
 st.markdown("""
 <style>
 .stApp { background-color: #eef3f8; }
+
+[data-testid="stMetric"],
+[data-testid="stMetricContainer"] {
+    border: 2px solid #2d6a6a !important;
+    border-radius: 12px;
+}
+
+
 [data-testid="stSidebar"] { background-color: #dde8f1; }
 [data-testid="stHeader"] { background: transparent; }
 </style>

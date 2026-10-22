@@ -5,7 +5,7 @@ Proyecto de AIMLF1 · Módulo 2 (actividad en parejas).
 
 ## Links
 
-- **App (Streamlit):** _pegar aquí_
+- **App (Streamlit):** _https://apitaxispronostico-kipghfxyekn7ahcfdnwe7x.streamlit.app/_
 - **API (Render):** _pegar aquí_ (documentación en `/docs`)
 - **Repositorio:** _pegar aquí_
 

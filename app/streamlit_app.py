@@ -11,7 +11,7 @@ st.markdown("""
 
 [data-testid="stMetric"],
 [data-testid="stMetricContainer"] {
-      b border-color: #2d6a6a !important;
+       border-color: #2d6a6a !important;
 }
 
 

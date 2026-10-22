@@ -11,7 +11,8 @@ st.markdown("""
 
 [data-testid="stMetric"],
 [data-testid="stMetricContainer"] {
-   
+      border: 2px solid #2d6a6a !important;
+    border-radius: 12px;
 }
 
 

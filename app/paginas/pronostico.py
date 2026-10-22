@@ -41,7 +41,7 @@ m1.metric("Viajes esperados en el día", f"{total:,.0f}", delta=delta, delta_col
           chart_data=df["p50"].round().tolist(), chart_type="area", border=True)
 m2.metric("Hora pico", f"{int(df.loc[pico, 'hora'])}:00", delta=f"{df.loc[pico, 'p50']:,.0f} viajes",
           delta_color="red", delta_arrow="off", border=True)
-m3.metric("Rango del día (80%)", f"{df['p10'].sum():,.0f} – {df['p90'].sum():,.0f}",  viajes por hora", delta_color="green", border=True,
+m3.metric("Rango del día (80%)", f"{df['p10'].sum():,.0f} – {df['p90'].sum():,.0f}",  border=True,
           help="Suma de los cuantiles 10% y 90% hora por hora. Es una aproximación del rango del día.")
 if futuro:
     m4.metric("Viajes reales", "Pendiente", delta="pronóstico a futuro", delta_color="off",

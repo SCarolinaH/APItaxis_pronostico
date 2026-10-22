@@ -37,7 +37,7 @@ delta = f"{(total / semana - 1) * 100:+.0f}% vs. hace una semana" if semana > 0 
 pico = df["p50"].idxmax()
 
 m1, m2, m3, m4 = st.columns(4)
-m1.metric("Viajes esperados en el día", f"{total:,.0f}", delta=delta, delta_color="off",
+m1.metric("Viajes esperados en el día", f"{total:,.0f}", delta=delta, delta_color="blue",
           chart_data=df["p50"].round().tolist(), chart_type="area", border=True)
 m2.metric("Hora pico", f"{int(df.loc[pico, 'hora'])}:00", delta=f"{df.loc[pico, 'p50']:,.0f} viajes",
           delta_color="off", delta_arrow="off", border=True)

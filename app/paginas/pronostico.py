@@ -49,7 +49,7 @@ if futuro:
 else:
     mae = (df["real"] - df["p50"]).abs().mean()
     m4.metric("Error promedio por hora", f"{mae:.1f} viajes", delta=f"{df['real'].sum():,.0f} viajes reales",
-              delta_color="off", delta_arrow="off", border=True)
+              delta_color="violet", delta_arrow="off", border=True)
 
 # ---- gráfico con banda de incertidumbre
 fig = go.Figure()

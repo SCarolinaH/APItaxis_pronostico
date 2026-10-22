@@ -1,2 +1,0 @@
-Copia aquí los archivos que genera preparacion.ipynb en app/data/:
-  metricas.json, zonas_segmentadas.csv, silueta.csv, monitoreo.csv
